@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <meta name="description" content="Login - Register Template">
+    <meta name="author" content="Lorenzo Angelino aka MrLolok">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            background-color: #303641;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container-register">
+        <div id="title">
+            <i class="material-icons">lock</i> Register
+        </div>
+
+        <center>
+            <form>
+                <div class="input">
+                    <div class="input-addon">
+                        <i class="material-icons">email</i>
+                    </div>
+                    <input id="email" placeholder="Email" type="text" class="validate" autocomplete="off">
+                </div>
+                <div style="clear: both"></div>
+                <div class="input">
+                    <div class="input-addon">
+                        <i class="material-icons">face</i>
+                    </div>
+                    <input id="username" placeholder="Username" type="text" class="validate" autocomplete="off">
+                </div>
+                <div style="clear: both"></div>
+                <div class="input">
+                    <div class="input-addon">
+                        <i class="material-icons">vpn_key</i>
+                    </div>
+                    <input id="password" placeholder="Password" type="text" class="validate" autocomplete="off">
+                </div>
+
+                <div class="remember-me">
+                    <input type="checkbox">
+                    <span style="color: #DDD">I accept Terms of Service</span>
+                </div>
+
+                <input type="submit" value="Register" />
+            </form>
+        </center>
+
+        <div class="privacy">
+            <a href="#">Privacy Policy</a>
+        </div>
+
+        <center>
+            <div class="register">
+                Do you already have an account?
+                <button id="register-link" href="#">Log In here</button>
+            </div>
+        </center>
+    </div>
+</body>
+
+</html>
