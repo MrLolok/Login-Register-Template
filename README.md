@@ -3,4 +3,4 @@
 Website Preview:
 
 <img src="http://prntscr.com/i7bko4" title="Login page" />
-<img src="http://prntscr.com/i7bl1m" title="Register page" />
+<img src="https://image.prntscr.com/image/SILqa3UgRqaTBsYwfhrNUg.png" title="Register page" />
