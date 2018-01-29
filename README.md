@@ -2,5 +2,5 @@
 
 Website Preview:
 
-<img src="http://prntscr.com/i7bko4" title="Login page" />
+<img src="https://image.prntscr.com/image/G-t2n0NTTkmIIQfbMxRpUA.png" title="Login page" />
 <img src="https://image.prntscr.com/image/SILqa3UgRqaTBsYwfhrNUg.png" title="Register page" />
