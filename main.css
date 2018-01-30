@@ -41,6 +41,7 @@ body {
 }
 
 .input {
+	margin: auto;
     width: 240px;
     border-radius: 4px;
     background-color: #373b3d;
@@ -129,11 +130,16 @@ input[type=submit] {
 }
 
 .register {
+	margin: auto;
     padding: 16px 0;
     text-align: center;
     margin-top: 40px;
     width: 85%;
     border-top: 1px solid #C1C3C6;
+}
+
+.clearfix {
+	clear: both;
 }
 
 #register-link {
