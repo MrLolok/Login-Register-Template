@@ -1,5 +1,5 @@
 <h1>Login Register Template</h1>
-Pure CSS and HTML template using Materialize's icons
+Pure CSS and HTML template using Materialize's icons<br>
 
 Website Preview:
 
