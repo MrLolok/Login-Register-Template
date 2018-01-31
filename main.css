@@ -40,6 +40,11 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+.lock {
+	position: relative;
+	top: 2px;
+}
+
 .input {
     margin: auto;
     width: 240px;
