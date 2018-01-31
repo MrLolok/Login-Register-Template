@@ -41,7 +41,7 @@ body {
 }
 
 .input {
-	margin: auto;
+    margin: auto;
     width: 240px;
     border-radius: 4px;
     background-color: #373b3d;
@@ -57,7 +57,12 @@ body {
     border-right: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+input[type=checkbox] {
+    cursor: pointer;
+}
+
 input[type=text] {
+    color: #949494;
     margin: 0;
     background-color: #373b3d;
     border: 1px solid #373b3d;
@@ -69,6 +74,32 @@ input[type=text]:focus {
     border: 1px solid #373b3d;
 }
 
+input[type=password] {
+    color: #949494;
+    margin: 0;
+    background-color: #373b3d;
+    border: 1px solid #373b3d;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+input[type=password]:focus {
+    border: 1px solid #373b3d;
+}
+
+input[type=email] {
+    color: #949494;
+    margin: 0;
+    background-color: #373b3d;
+    border: 1px solid #373b3d;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+
+input[type=email]:focus {
+    border: 1px solid #373b3d;
+}
+
 .forgot-password {
     position: relative;
     bottom: 0%;
@@ -77,7 +108,6 @@ input[type=text]:focus {
 .forgot-password a:link {
     color: #C1C3C6;
     text-decoration: none;
-    transition: color 1s;
 }
 
 .forgot-password a:visited {
@@ -87,6 +117,7 @@ input[type=text]:focus {
 
 .forgot-password a:hover {
     color: #FFF;
+    transition: color 1s;
 }
 
 .privacy {
@@ -99,7 +130,6 @@ input[type=text]:focus {
 .privacy a:link {
     color: #949494;
     text-decoration: none;
-    transition: color 1s;
 }
 
 .privacy a:visited {
@@ -109,6 +139,7 @@ input[type=text]:focus {
 
 .privacy a:hover {
     color: #C1C3C6;
+    transition: color 1s;
 }
 
 *:focus {
@@ -130,7 +161,7 @@ input[type=submit] {
 }
 
 .register {
-	margin: auto;
+    margin: auto;
     padding: 16px 0;
     text-align: center;
     margin-top: 40px;
@@ -139,7 +170,7 @@ input[type=submit] {
 }
 
 .clearfix {
-	clear: both;
+    clear: both;
 }
 
 #register-link {
