@@ -7,7 +7,6 @@
    <!--Make sure to put you app name in the page title-->
   
   <link href="privacy-policy-updates.xml" type="application/rss+xml" title="$APPNAME Privacy Policy Updates" rel="alternate">
-   <!--It's a good idea to provide an RSS feed of privacy policy updates so that users don't have to keep checking back to see if anything has changed. Especially if your feed doesn't change regularly, it doesn't take much work to update it by hand whenever you make a change. Of course, whenever you make a large change, it's still a good idea to push a notice out to your users, even if you do have an RSS feed. Make sure to remove the RSS section below if you don't use an update feed.-->
    
   <link rel="stylesheet" href="css/style.css" media="all" type="text/css">
   
