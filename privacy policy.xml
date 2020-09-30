@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title>$APPNAME Privacy Policy Changes</title>
+        <description>This feel contains updates to the privacy policy for $APPNAME.</description>
+        <link><!--Put the URI of your privacy policy or privacy dshboard here.--></link>
+        <lastBuildDate>Mon, 06 Sep 2010 00:01:00 +0000 </lastBuildDate>
+        <pubDate>Mon, 06 Sep 2009 16:45:00 +0000 </pubDate>
+        <ttl>1800</ttl>
+ 
+        <item>
+                <title>First Policy</title>
+                <description>We posted a brand new pirvacy policy!</description>
+                <link><!--your privacy policy's URI--></link>
+                <guid><!--unique string per item--></guid>
+                <pubDate>Mon, 06 Sep 2009 16:45:00 +0000 </pubDate>
+        </item>
+ 
+</channel>
+</rss>
+
+<!--
+
+This is a sample RSS 2.0 feed. Make sure to replace all the fields with the correct values for your policy.
+
+It' makes it easier to archive and your past privacy policies, if you give them names like
+
+~~~
+example.com/privacy/policy-DDMMYY.html
+~~~
+
+Then `example.com/privacy/policy.html` can just point to the latest one.
+
+-->
