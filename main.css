@@ -7,7 +7,7 @@ body {
 }
 
 #container-login {
-    background-color: #1D1F20;
+    background-color: #ebbf79;
     position: relative;
     top: 20%;
     margin: auto;
@@ -157,7 +157,7 @@ input[type=email]:focus {
 
 input[type=submit] {
     padding: 6px 25px;
-    background: #373E4A;
+    background: #ebbf79;
     color: #C1C3C6;
     font-weight: bold;
     border: 0 none;
