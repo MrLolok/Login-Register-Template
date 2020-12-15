@@ -155,7 +155,7 @@ input[type=email]:focus {
     margin: 10px 0;
 }
 
-input[type=submit] {
+.submit {
     padding: 6px 25px;
     background: #373E4A;
     color: #C1C3C6;
@@ -163,6 +163,12 @@ input[type=submit] {
     border: 0 none;
     cursor: pointer;
     border-radius: 3px;
+    transition: background ease 0.4s;
+}
+
+.submit:hover{
+    background: #C1C3C6 ;
+    color: #373E4A;
 }
 
 .register {
@@ -187,4 +193,10 @@ input[type=submit] {
     border: 0 none;
     cursor: pointer;
     border-radius: 3px;
+    transition: background ease 0.4s;
+}
+
+#register-link:hover{
+    background: #C1C3C6;
+    color: #373E4A;
 }
